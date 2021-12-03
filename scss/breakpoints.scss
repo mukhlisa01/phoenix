@@ -1,0 +1,25 @@
+.container,
+.small-container{
+    @include m-1750{
+        max-width: 1400px;
+    }
+    @include m-1400{
+        max-width: 1250px;
+    }
+    @include m-1250{
+        max-width: 940px;
+    }
+    
+    @include m-940{
+        max-width: 768px;
+    }
+    @include m-768{
+        max-width: 570px;
+    }
+    @include m-570{
+        max-width: 400px;
+    }
+    @include m-400{
+        max-width: 100%;
+    }
+}

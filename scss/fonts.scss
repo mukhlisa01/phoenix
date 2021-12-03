@@ -1,0 +1,43 @@
+// PROXIMA NOVA
+@font-face {
+    font-family: 'Proxima-semibold';
+    src: url('../fonts/Proxima_Nova/ProximaNova-Semibold.woff') format('woff'), url('../fonts/Proxima_Nova/ProximaNova-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima-bold';
+    src: url('../fonts/Proxima_Nova/ProximaNova-Bold.woff') format('woff'), url('../fonts/Proxima_Nova/ProximaNova-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima-regular';
+    src: url('../fonts/Proxima_Nova/ProximaNova-Regular.woff') format('woff'), url('../fonts/Proxima_Nova/ProximaNova-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+// CIRCE
+@font-face {
+    font-family: 'Circe-regular';
+    src: url('..//fonts/Circe/Circe-Regular.woff'), format('woff'),
+    url('..//fonts/Circe/Circe-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Circe-bold';
+    src: url('..//fonts/Circe/Circe-Bold.woff'), format('woff'),
+    url('..//fonts/Circe/Circe-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}

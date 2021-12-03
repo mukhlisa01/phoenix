@@ -1,0 +1,48 @@
+
+// Media Size
+@mixin m-1750 {
+    @media (max-width:1750px) {
+        @content;
+    }
+}
+
+@mixin m-1400 {
+    @media (max-width:1400px) {
+        @content;
+    }
+}
+
+@mixin m-1250 {
+    @media (max-width:1250px) {
+        @content;
+    }
+}
+
+@mixin m-940 {
+    @media (max-width:940px) {
+        @content;
+    }
+}
+
+@mixin m-768 {
+    @media (max-width:768px) {
+        @content;
+    }
+}
+
+@mixin m-570 {
+    @media (max-width:570px) {
+        @content;
+    }
+}
+@mixin m-400 {
+    @media (max-width:400px) {
+        @content;
+    }
+}
+
+@mixin media($width) {
+    @media (max-width: $width) {
+        @content;
+    }
+}
